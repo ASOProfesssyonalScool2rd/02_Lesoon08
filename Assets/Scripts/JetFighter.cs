@@ -1,17 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class JetFighter : MonoBehaviour
 {
     public GameObject BulletPrefub; //プレファブのデータ
     private float DeltaSpeed = 2;  //移動速度の基本値
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
