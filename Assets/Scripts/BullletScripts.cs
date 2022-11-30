@@ -1,10 +1,6 @@
-
 using UnityEngine;
-
 public class BullletScripts : MonoBehaviour
-{
-    // === メンバ変数>>>
-
+{ // === メンバ変数>>>
     private Vector3  direction;  //移動方向
     private float Power;　　　　　//移動速度
     public void Initialize()

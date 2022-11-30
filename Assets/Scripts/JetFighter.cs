@@ -33,9 +33,8 @@ public class JetFighter : MonoBehaviour
             GameObject clone = Instantiate(BulletPrefub, shortpoint, transform.rotation);
             clone.GetComponent<BullletScripts>().Initialize();
         }
-
         
-        if (Input.GetKey(KeyCode.Space))
+        /*if (Input.GetKey(KeyCode.Space))
         {
             transform.Rotate(-90*Time.deltaTime, 0, 0);
             Debug.Log("HeloWord!!");
@@ -45,5 +44,6 @@ public class JetFighter : MonoBehaviour
             transform.Rotate(90*Time.deltaTime, 0, 0);
             Debug.Log("ReturnHeloWord!!");
         }
+        */
     }
 }
