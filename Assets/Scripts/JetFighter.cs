@@ -42,7 +42,7 @@ public class JetFighter : MonoBehaviour
             clone.GetComponent<BullletScripts>().Initialize();
         }
 
-        if(true)return;
+        
         if (Input.GetKey(KeyCode.Space))
         {
             transform.Rotate(-90*Time.deltaTime, 0, 0);
